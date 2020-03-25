@@ -19,6 +19,7 @@ const images = [
 ];
 
 const imagesList = document.querySelector("#gallery");
+
 function baseGalery({ url, alt }) {
   const element = `<li><img src="${url}" alt="${alt}"></li>`;
   return element;
