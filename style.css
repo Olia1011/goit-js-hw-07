@@ -1,0 +1,47 @@
+*,
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0 50px;
+}
+
+main {
+    display: block
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#gallery img {
+    width: 400px;
+    height: 300px;
+} 
+
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+
+#validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+#validation-input.invalid {
+    border-color: #f44336;
+  }
